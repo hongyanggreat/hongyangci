@@ -1,0 +1,164 @@
+﻿.fa.fa-shopping-cart{
+    position: relative;
+}
+.cart-button__item-count{
+    position: absolute;
+    top: 2px;
+    right: 75px;
+    height: 18px;
+    width: 18px;
+    background: #EF0000;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #EF0000;
+}
+.qty{
+    width: 30px;
+    text-align: center;
+}
+.fa-minus-circle,
+.fa-plus-circle
+{
+    color: #000980;
+    cursor: pointer;
+}
+.sort{
+    border: 1px solid red;
+}
+.listorder .action button{
+    cursor: pointer;
+}
+.tabs li{
+    width: 100%;
+}
+.distric {
+    display: block;
+    overflow: visible
+}
+.distric:after,
+.distric:before {
+    bottom: 100%;
+    left: 37%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+.distric:after {
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px
+}
+.distric:before {
+    border-bottom-color: #ebebeb;
+    border-width: 12px;
+    margin-left: -12px
+}
+
+.ward {
+    display: block;
+    overflow: visible
+}
+.ward:after,
+.ward:before {
+    bottom: 100%;
+    left: 63%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+.ward:after {
+    border-bottom-color: #fff;
+    border-width: 10px;
+    margin-left: -10px
+}
+.ward:before {
+    border-bottom-color: #ebebeb;
+    border-width: 12px;
+    margin-left: -12px
+}
+.chooselocal li{
+    width: 20%;
+    background: #f9f9f9
+}
+li.add{
+    border: none;
+}
+.ShipAtHome{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f9f9f9
+}
+.form_datetime{
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #cacaca;
+}
+.actionSubmit{
+    margin-top: 10px;
+}
+.buynowmulity{
+    padding: 7px 0;
+    cursor: pointer;
+}
+.listcity a{
+    width: 22.33%;
+}
+.selected{
+    cursor: context-menu;
+}
+.fastinfo{
+    background: #fff;
+    width: 80%;
+    margin: 30px auto;
+}
+.contentfast{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        width: 100%;
+        display: none;
+        height: 700px;
+        background: rgba(0, 0, 0, .5);
+       /*  background: url('../images/bg.png'); */
+}   
+
+.closefast{
+    top: 45px;
+    right: 125px;
+}
+.buynow{
+    width: 290px;
+}
+header{
+    background: #6A6A6A
+}
+nav a{
+    background: #d6d6d6
+}
+.manufac .listmanu aside {
+    width: 100%;
+}
+.manufac .listmanu aside a{
+    width: 44%;
+    float: left;    
+}
+.clearfilter .icontgdd-delete{
+    width: 10px;height:10px;
+}
+#see-more-phone{
+    cursor: pointer;
+}
+.mobilecate{
+    min-height: 286px;
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+}

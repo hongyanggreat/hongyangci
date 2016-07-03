@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	font-family: Arial, Helvetica, sans-serif!important;
+}
+a{text-decoration: none;}
+.search-nd button{
+		top: 35%;
+  		right: 15%;
+  		background: red
+  	}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+   body{
+
+   }
+.header{
+	width: 100%;
+	border-bottom: 1px solid #E5E5E5
+}
+.header img{
+	padding: 10px;
+}
+.container{
+	margin: 0 1%;
+	margin-top: 10px;
+	width: 98%;
+	height: auto;
+	border: 1px solid #D4D4D4;
+	border-top: 2px solid #5A5A5A;
+}
+.heading{
+	background: #e8e8e8;
+	padding: 1%;
+	width: 98%;
+}
+.heading h1{
+	font-size: 17px;
+	color: #595959
+}
+.content{
+	height: 200px;
+	width: 100%;
+}
+.col{
+	width: 100%;
+	margin-top: 5px;
+}
+.form-group{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.form-group label{
+	color: #3c3c3c;
+	font-size: 15px;
+	line-height: 25px;
+}
+.input-group{
+}
+.input-group-addon{
+	float: left;
+	width: 10px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px 0 0 3px;
+	background: #d1d1d1;
+	color: #2B2B2B;
+	line-height: 28px;
+
+}
+input{
+	height: 28px;
+	border: 1px solid #ccc;
+	width: 80%;
+	border-radius: 0 3px 3px 0px;
+	border-left: 0;
+	padding-left: 5px;
+}
+
+span.help-block {
+	padding: 5px;
+	font-size: 15px;
+}
+span.help-block a{
+	color: #1e91cf
+}
+
+.form-group button{
+	width: 70px;
+	height: 30px;
+	border: 1px solid #3494FF;
+	background: #4EC7FF;
+	color: #fff;
+	text-align: center;	
+	position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+   
+  .container{
+
+  	width: 500px;
+  	margin:0 auto;
+  	margin-top: 10px;
+  	background: #C0E1FF;
+  	padding-bottom: 5px;
+  }
+  .form-group{
+  	padding: 0 15px;
+  }
+  .heading{
+  	padding: 10px 15px;
+  	width: 94%;
+  }
+   span.help-block{
+   	padding: 15px;
+   	display: block;
+   }
+   .text-right{
+   		float: right;
+   		margin-right: 125px;
+	   }
+} 
